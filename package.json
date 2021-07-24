@@ -1,0 +1,28 @@
+{
+  "name": "milana1726-jsfeen",
+  "version": "1.0.0",
+  "description": "Virtual Keyboard task",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/milana1726-JSFEEN.git"
+  },
+  "keywords": [],
+  "author": "Liudmyla Melnychuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/milana1726-JSFEEN/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/milana1726-JSFEEN#readme",
+  "devDependencies": {
+    "eslint": "^7.29.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "espree": "^7.3.1"
+  }
+}

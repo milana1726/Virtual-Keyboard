@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+html {
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #efeded;
+    min-width: 970px;
+}
+
+.text_note {
+    background-color: #ff921c;
+    width: 630px;
+    height: 20px;
+    font-size: 14px;
+    font-weight:bold;
+    margin-top: 10px;
+    color: #000;
+    text-align: center;
+}
+  
+.keyboard_input {
+    border: solid #7d7d7d 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    height: 200px;
+    width: 800px;
+    margin: 30px 20px 20px;
+    padding: 10px;
+    outline: none;
+}
+  
+.keyboard {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    width: 750px;
+    align-self: center;
+    padding: 5px 0;
+    background: #7d7d7d;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+  
+.keyboard_keys {
+    text-align: center;
+}
+  
+.keyboard_key {
+    height: 41px;
+    width: 41px;
+    margin: 3px;
+    border-radius: 4px;
+    border: none;
+    background: #3a424e;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    vertical-align: top;
+    padding: 0;
+    -webkit-transition: 0.1s linear;
+    transition: 0.1s linear;
+}
+  
+  .keyboard_key__activated {
+    background: #5571ee;
+    border-radius: 20px;
+}
+  
+  .keyboard_key:active {
+    background: #5571ee;
+    border-radius: 20px;
+}
+
+.button_dark {
+    background: #1c232e; 
+}
+
+.backspace,
+.shift_left,
+.capslock {
+    width: 99px;
+}
+
+.tab {
+    width: 50px;
+}
+
+.del {
+    width: 43px;
+}
+
+.enter {
+    width: 87px;
+}
+
+.ctrl {
+    width: 65px; 
+} 
+
+.space {
+    width: 285px;
+}
+
+.capslock__activated {
+    background: #08ff00;
+}
+
+.shift__activated {
+    border: solid 2px;
+    border-color: #08ff00;
+}
